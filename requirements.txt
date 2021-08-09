@@ -139,7 +139,7 @@ psycopg2-binary==2.8.6
     # via -r requirements.in
 pycparser==2.20
     # via cffi
-pyjwt==1.7.1
+pyjwt==2.1.0
     # via social-auth-core
 pyopenssl==20.0.1
     # via urllib3
@@ -185,11 +185,9 @@ six==1.14.0
     #   l18n
     #   pyopenssl
     #   python-dateutil
-    #   social-auth-app-django
-    #   social-auth-core
-social-auth-app-django==4.0.0
+social-auth-app-django==5.0.0
     # via -r requirements.in
-social-auth-core==3.3.3
+social-auth-core==4.1.0
     # via social-auth-app-django
 soupsieve==2.0.1
     # via beautifulsoup4
